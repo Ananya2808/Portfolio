@@ -85,7 +85,7 @@ body
 }
 
 @media screen and (max-width: 1000px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
@@ -258,8 +258,10 @@ body
 .sub-title span{
     color: #0ef;
 }
+/* -----------------------------------------------------------------------> */
 .container{
-    padding: 90px;
+    /* padding: 90px; */
+    padding: 20px;
 }
 .services-list{
     display: grid;
@@ -553,7 +555,7 @@ section{
 }
 
 .main-text{
-    padding-top: 130px;
+    padding-top: 10px;
     margin-top: 0;
 
 }
@@ -563,17 +565,22 @@ section{
     text-align: center;
 }
 .main-text h2 span{
-
     color: #0ef;
-
 }
+
+.portfolio{
+    margin-bottom: 80px;
+}
+
+/* ----------------------------------------------------------------------------> */
 .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
-    padding: 70px;
+    /* padding: 70px; */
+    padding: 20px;
 
 }
 .row{
@@ -642,7 +649,7 @@ section{
     gap: 100px;
     padding-left: 30px;
     margin-top: 130px;
-    margin: 60px;
+    margin: 10px;
 }
 
 .contact-text{
